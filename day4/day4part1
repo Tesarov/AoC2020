@@ -1,0 +1,19 @@
+with open('day4/input.txt', 'r') as file:
+    result=0
+    passports=[]
+    i=0
+    helper=''
+    requirements= ['byr','iyr','eyr','hgt','hcl','ecl','pid']
+    for line in file:
+        if line == '\n':
+            passports.append(helper)
+            print('passport number',i+1,' is: ', passports[i])
+            if all(req in passports[i] for req in requirements):
+                result+=1
+                print('valid') 
+            i+=1
+            helper=''   
+        else:
+            helper+= line
+        #print(repr(line))
+    print('the result is:',result)

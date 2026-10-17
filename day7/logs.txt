@@ -1,0 +1,646 @@
+0 change of bags shiny gold bag 
+ shiny gold bags contain 4 drab blue bags, 4 posh purple bags, 2 drab silver bags, 4 wavy turquoise bags.
+ uuu shiny gold bag contain{'4 posh purple bag', '4 drab blue bag', '4 wavy turquoise bag', '2 drab silver bag'} 
+0 after bag findings 
+ 4*posh purple bag
+ 4 change of bags posh purple bag 
+ posh purple bags contain 4 pale orange bags, 5 dull salmon bags, 2 striped teal bags.
+ uuu posh purple bag contain{'2 striped teal bag', '4 pale orange bag', '5 dull salmon bag'} 
+4 after bag findings 
+ 8*striped teal bag
+ 12 change of bags striped teal bag 
+ striped teal bags contain no other bags.
+ uuu striped teal bag containset() 
+12 after bag findings 
+ 
+striped teal bag is finished with coefficient 8 and children set() and is inside ['shiny gold bag', 'posh purple bag', 'striped teal bag'] 
+
+12 after new recursion, but still in old bag posh purple bag 
+ 16*pale orange bag
+ 28 change of bags pale orange bag 
+ pale orange bags contain 4 mirrored gold bags, 3 faded brown bags, 2 dark olive bags.
+ uuu pale orange bag contain{'2 dark olive bag', '4 mirrored gold bag', '3 faded brown bag'} 
+28 after bag findings 
+ 32*dark olive bag
+ 60 change of bags dark olive bag 
+ dark olive bags contain no other bags.
+ uuu dark olive bag containset() 
+60 after bag findings 
+ 
+dark olive bag is finished with coefficient 32 and children set() and is inside ['shiny gold bag', 'posh purple bag', 'striped teal bag', 'pale orange bag', 'dark olive bag'] 
+
+60 after new recursion, but still in old bag pale orange bag 
+ 64*mirrored gold bag
+ 124 change of bags mirrored gold bag 
+ mirrored gold bags contain 2 dark olive bags.
+ uuu mirrored gold bag contain{'2 dark olive bag'} 
+124 after bag findings 
+ 128*dark olive bag
+ 252 change of bags dark olive bag 
+ dark olive bags contain no other bags.
+ uuu dark olive bag containset() 
+252 after bag findings 
+ 
+dark olive bag is finished with coefficient 128 and children set() and is inside ['shiny gold bag', 'posh purple bag', 'striped teal bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag'] 
+
+252 after new recursion, but still in old bag mirrored gold bag 
+ 
+mirrored gold bag is finished with coefficient 64 and children {'2 dark olive bag'} and is inside ['shiny gold bag', 'posh purple bag', 'striped teal bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag'] 
+
+252 after new recursion, but still in old bag pale orange bag 
+ 48*faded brown bag
+ 300 change of bags faded brown bag 
+ faded brown bags contain 3 faded beige bags, 1 light chartreuse bag, 4 mirrored gold bags.
+ uuu faded brown bag contain{'3 faded beige bag', '4 mirrored gold bag', '1 light chartreuse bag'} 
+300 after bag findings 
+ 144*faded beige bag
+ 444 change of bags faded beige bag 
+ faded beige bags contain no other bags.
+ uuu faded beige bag containset() 
+444 after bag findings 
+ 
+faded beige bag is finished with coefficient 144 and children set() and is inside ['shiny gold bag', 'posh purple bag', 'striped teal bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag'] 
+
+444 after new recursion, but still in old bag faded brown bag 
+ 192*mirrored gold bag
+ 636 change of bags mirrored gold bag 
+ mirrored gold bags contain 2 dark olive bags.
+ uuu mirrored gold bag contain{'2 dark olive bag'} 
+636 after bag findings 
+ 384*dark olive bag
+ 1020 change of bags dark olive bag 
+ dark olive bags contain no other bags.
+ uuu dark olive bag containset() 
+1020 after bag findings 
+ 
+dark olive bag is finished with coefficient 384 and children set() and is inside ['shiny gold bag', 'posh purple bag', 'striped teal bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag'] 
+
+1020 after new recursion, but still in old bag mirrored gold bag 
+ 
+mirrored gold bag is finished with coefficient 192 and children {'2 dark olive bag'} and is inside ['shiny gold bag', 'posh purple bag', 'striped teal bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag'] 
+
+1020 after new recursion, but still in old bag faded brown bag 
+ 48*light chartreuse bag
+ 1068 change of bags light chartreuse bag 
+ light chartreuse bags contain no other bags.
+ uuu light chartreuse bag containset() 
+1068 after bag findings 
+ 
+light chartreuse bag is finished with coefficient 48 and children set() and is inside ['shiny gold bag', 'posh purple bag', 'striped teal bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag'] 
+
+1068 after new recursion, but still in old bag faded brown bag 
+ 
+faded brown bag is finished with coefficient 48 and children {'3 faded beige bag', '4 mirrored gold bag', '1 light chartreuse bag'} and is inside ['shiny gold bag', 'posh purple bag', 'striped teal bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag'] 
+
+1068 after new recursion, but still in old bag pale orange bag 
+ 
+pale orange bag is finished with coefficient 16 and children {'2 dark olive bag', '4 mirrored gold bag', '3 faded brown bag'} and is inside ['shiny gold bag', 'posh purple bag', 'striped teal bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag'] 
+
+1068 after new recursion, but still in old bag posh purple bag 
+ 20*dull salmon bag
+ 1088 change of bags dull salmon bag 
+ dull salmon bags contain 5 striped teal bags, 3 dark blue bags, 3 drab tan bags, 5 wavy crimson bags.
+ uuu dull salmon bag contain{'5 striped teal bag', '5 wavy crimson bag', '3 dark blue bag', '3 drab tan bag'} 
+1088 after bag findings 
+ 100*striped teal bag
+ 1188 change of bags striped teal bag 
+ striped teal bags contain no other bags.
+ uuu striped teal bag containset() 
+1188 after bag findings 
+ 
+striped teal bag is finished with coefficient 100 and children set() and is inside ['shiny gold bag', 'posh purple bag', 'striped teal bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag', 'dull salmon bag', 'striped teal bag'] 
+
+1188 after new recursion, but still in old bag dull salmon bag 
+ 100*wavy crimson bag
+ 1288 change of bags wavy crimson bag 
+ wavy crimson bags contain no other bags.
+ uuu wavy crimson bag containset() 
+1288 after bag findings 
+ 
+wavy crimson bag is finished with coefficient 100 and children set() and is inside ['shiny gold bag', 'posh purple bag', 'striped teal bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag'] 
+
+1288 after new recursion, but still in old bag dull salmon bag 
+ 60*dark blue bag
+ 1348 change of bags dark blue bag 
+ dark blue bags contain no other bags.
+ uuu dark blue bag containset() 
+1348 after bag findings 
+ 
+dark blue bag is finished with coefficient 60 and children set() and is inside ['shiny gold bag', 'posh purple bag', 'striped teal bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag'] 
+
+1348 after new recursion, but still in old bag dull salmon bag 
+ 60*drab tan bag
+ 1408 change of bags drab tan bag 
+ drab tan bags contain no other bags.
+ uuu drab tan bag containset() 
+1408 after bag findings 
+ 
+drab tan bag is finished with coefficient 60 and children set() and is inside ['shiny gold bag', 'posh purple bag', 'striped teal bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag'] 
+
+1408 after new recursion, but still in old bag dull salmon bag 
+ 
+dull salmon bag is finished with coefficient 20 and children {'5 striped teal bag', '5 wavy crimson bag', '3 dark blue bag', '3 drab tan bag'} and is inside ['shiny gold bag', 'posh purple bag', 'striped teal bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag'] 
+
+1408 after new recursion, but still in old bag posh purple bag 
+ 
+posh purple bag is finished with coefficient 4 and children {'2 striped teal bag', '4 pale orange bag', '5 dull salmon bag'} and is inside ['shiny gold bag', 'posh purple bag', 'striped teal bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag'] 
+
+1408 after new recursion, but still in old bag shiny gold bag 
+ 4*drab blue bag
+ 1412 change of bags drab blue bag 
+ drab blue bags contain 5 dull salmon bags.
+ uuu drab blue bag contain{'5 dull salmon bag'} 
+1412 after bag findings 
+ 20*dull salmon bag
+ 1432 change of bags dull salmon bag 
+ dull salmon bags contain 5 striped teal bags, 3 dark blue bags, 3 drab tan bags, 5 wavy crimson bags.
+ uuu dull salmon bag contain{'5 striped teal bag', '5 wavy crimson bag', '3 dark blue bag', '3 drab tan bag'} 
+1432 after bag findings 
+ 100*striped teal bag
+ 1532 change of bags striped teal bag 
+ striped teal bags contain no other bags.
+ uuu striped teal bag containset() 
+1532 after bag findings 
+ 
+striped teal bag is finished with coefficient 100 and children set() and is inside ['shiny gold bag', 'posh purple bag', 'striped teal bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'drab blue bag', 'dull salmon bag', 'striped teal bag'] 
+
+1532 after new recursion, but still in old bag dull salmon bag 
+ 100*wavy crimson bag
+ 1632 change of bags wavy crimson bag 
+ wavy crimson bags contain no other bags.
+ uuu wavy crimson bag containset() 
+1632 after bag findings 
+ 
+wavy crimson bag is finished with coefficient 100 and children set() and is inside ['shiny gold bag', 'posh purple bag', 'striped teal bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'drab blue bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag'] 
+
+1632 after new recursion, but still in old bag dull salmon bag 
+ 60*dark blue bag
+ 1692 change of bags dark blue bag 
+ dark blue bags contain no other bags.
+ uuu dark blue bag containset() 
+1692 after bag findings 
+ 
+dark blue bag is finished with coefficient 60 and children set() and is inside ['shiny gold bag', 'posh purple bag', 'striped teal bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'drab blue bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag'] 
+
+1692 after new recursion, but still in old bag dull salmon bag 
+ 60*drab tan bag
+ 1752 change of bags drab tan bag 
+ drab tan bags contain no other bags.
+ uuu drab tan bag containset() 
+1752 after bag findings 
+ 
+drab tan bag is finished with coefficient 60 and children set() and is inside ['shiny gold bag', 'posh purple bag', 'striped teal bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'drab blue bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag'] 
+
+1752 after new recursion, but still in old bag dull salmon bag 
+ 
+dull salmon bag is finished with coefficient 20 and children {'5 striped teal bag', '5 wavy crimson bag', '3 dark blue bag', '3 drab tan bag'} and is inside ['shiny gold bag', 'posh purple bag', 'striped teal bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'drab blue bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag'] 
+
+1752 after new recursion, but still in old bag drab blue bag 
+ 
+drab blue bag is finished with coefficient 4 and children {'5 dull salmon bag'} and is inside ['shiny gold bag', 'posh purple bag', 'striped teal bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'drab blue bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag'] 
+
+1752 after new recursion, but still in old bag shiny gold bag 
+ 4*wavy turquoise bag
+ 1756 change of bags wavy turquoise bag 
+ wavy turquoise bags contain 5 posh red bags, 4 striped teal bags.
+ uuu wavy turquoise bag contain{'4 striped teal bag', '5 posh red bag'} 
+1756 after bag findings 
+ 16*striped teal bag
+ 1772 change of bags striped teal bag 
+ striped teal bags contain no other bags.
+ uuu striped teal bag containset() 
+1772 after bag findings 
+ 
+striped teal bag is finished with coefficient 16 and children set() and is inside ['shiny gold bag', 'posh purple bag', 'striped teal bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'drab blue bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'wavy turquoise bag', 'striped teal bag'] 
+
+1772 after new recursion, but still in old bag wavy turquoise bag 
+ 20*posh red bag
+ 1792 change of bags posh red bag 
+ posh red bags contain 2 bright bronze bags, 5 striped teal bags, 5 faded beige bags, 4 faded olive bags.
+ uuu posh red bag contain{'5 striped teal bag', '4 faded olive bag', '5 faded beige bag', '2 bright bronze bag'} 
+1792 after bag findings 
+ 100*striped teal bag
+ 1892 change of bags striped teal bag 
+ striped teal bags contain no other bags.
+ uuu striped teal bag containset() 
+1892 after bag findings 
+ 
+striped teal bag is finished with coefficient 100 and children set() and is inside ['shiny gold bag', 'posh purple bag', 'striped teal bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'drab blue bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'wavy turquoise bag', 'striped teal bag', 'posh red bag', 'striped teal bag'] 
+
+1892 after new recursion, but still in old bag posh red bag 
+ 80*faded olive bag
+ 1972 change of bags faded olive bag 
+ faded olive bags contain 1 pale brown bag, 3 faded beige bags, 2 light chartreuse bags.
+ uuu faded olive bag contain{'3 faded beige bag', '1 pale brown bag', '2 light chartreuse bag'} 
+1972 after bag findings 
+ 240*faded beige bag
+ 2212 change of bags faded beige bag 
+ faded beige bags contain no other bags.
+ uuu faded beige bag containset() 
+2212 after bag findings 
+ 
+faded beige bag is finished with coefficient 240 and children set() and is inside ['shiny gold bag', 'posh purple bag', 'striped teal bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'drab blue bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'wavy turquoise bag', 'striped teal bag', 'posh red bag', 'striped teal bag', 'faded olive bag', 'faded beige bag'] 
+
+2212 after new recursion, but still in old bag faded olive bag 
+ 80*pale brown bag
+ 2292 change of bags pale brown bag 
+ pale brown bags contain no other bags.
+ uuu pale brown bag containset() 
+2292 after bag findings 
+ 
+pale brown bag is finished with coefficient 80 and children set() and is inside ['shiny gold bag', 'posh purple bag', 'striped teal bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'drab blue bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'wavy turquoise bag', 'striped teal bag', 'posh red bag', 'striped teal bag', 'faded olive bag', 'faded beige bag', 'pale brown bag'] 
+
+2292 after new recursion, but still in old bag faded olive bag 
+ 160*light chartreuse bag
+ 2452 change of bags light chartreuse bag 
+ light chartreuse bags contain no other bags.
+ uuu light chartreuse bag containset() 
+2452 after bag findings 
+ 
+light chartreuse bag is finished with coefficient 160 and children set() and is inside ['shiny gold bag', 'posh purple bag', 'striped teal bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'drab blue bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'wavy turquoise bag', 'striped teal bag', 'posh red bag', 'striped teal bag', 'faded olive bag', 'faded beige bag', 'pale brown bag', 'light chartreuse bag'] 
+
+2452 after new recursion, but still in old bag faded olive bag 
+ 
+faded olive bag is finished with coefficient 80 and children {'3 faded beige bag', '1 pale brown bag', '2 light chartreuse bag'} and is inside ['shiny gold bag', 'posh purple bag', 'striped teal bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'drab blue bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'wavy turquoise bag', 'striped teal bag', 'posh red bag', 'striped teal bag', 'faded olive bag', 'faded beige bag', 'pale brown bag', 'light chartreuse bag'] 
+
+2452 after new recursion, but still in old bag posh red bag 
+ 100*faded beige bag
+ 2552 change of bags faded beige bag 
+ faded beige bags contain no other bags.
+ uuu faded beige bag containset() 
+2552 after bag findings 
+ 
+faded beige bag is finished with coefficient 100 and children set() and is inside ['shiny gold bag', 'posh purple bag', 'striped teal bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'drab blue bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'wavy turquoise bag', 'striped teal bag', 'posh red bag', 'striped teal bag', 'faded olive bag', 'faded beige bag', 'pale brown bag', 'light chartreuse bag', 'faded beige bag'] 
+
+2552 after new recursion, but still in old bag posh red bag 
+ 40*bright bronze bag
+ 2592 change of bags bright bronze bag 
+ bright bronze bags contain 2 striped teal bags, 4 clear plum bags, 3 dim crimson bags, 5 faded black bags.
+ uuu bright bronze bag contain{'2 striped teal bag', '4 clear plum bag', '3 dim crimson bag', '5 faded black bag'} 
+2592 after bag findings 
+ 80*striped teal bag
+ 2672 change of bags striped teal bag 
+ striped teal bags contain no other bags.
+ uuu striped teal bag containset() 
+2672 after bag findings 
+ 
+striped teal bag is finished with coefficient 80 and children set() and is inside ['shiny gold bag', 'posh purple bag', 'striped teal bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'drab blue bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'wavy turquoise bag', 'striped teal bag', 'posh red bag', 'striped teal bag', 'faded olive bag', 'faded beige bag', 'pale brown bag', 'light chartreuse bag', 'faded beige bag', 'bright bronze bag', 'striped teal bag'] 
+
+2672 after new recursion, but still in old bag bright bronze bag 
+ 160*clear plum bag
+ 2832 change of bags clear plum bag 
+ clear plum bags contain 3 dull cyan bags.
+ uuu clear plum bag contain{'3 dull cyan bag'} 
+2832 after bag findings 
+ 480*dull cyan bag
+ 3312 change of bags dull cyan bag 
+ dull cyan bags contain 5 wavy crimson bags, 1 pale orange bag.
+ uuu dull cyan bag contain{'5 wavy crimson bag', '1 pale orange bag'} 
+3312 after bag findings 
+ 2400*wavy crimson bag
+ 5712 change of bags wavy crimson bag 
+ wavy crimson bags contain no other bags.
+ uuu wavy crimson bag containset() 
+5712 after bag findings 
+ 
+wavy crimson bag is finished with coefficient 2400 and children set() and is inside ['shiny gold bag', 'posh purple bag', 'striped teal bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'drab blue bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'wavy turquoise bag', 'striped teal bag', 'posh red bag', 'striped teal bag', 'faded olive bag', 'faded beige bag', 'pale brown bag', 'light chartreuse bag', 'faded beige bag', 'bright bronze bag', 'striped teal bag', 'clear plum bag', 'dull cyan bag', 'wavy crimson bag'] 
+
+5712 after new recursion, but still in old bag dull cyan bag 
+ 480*pale orange bag
+ 6192 change of bags pale orange bag 
+ pale orange bags contain 4 mirrored gold bags, 3 faded brown bags, 2 dark olive bags.
+ uuu pale orange bag contain{'2 dark olive bag', '4 mirrored gold bag', '3 faded brown bag'} 
+6192 after bag findings 
+ 960*dark olive bag
+ 7152 change of bags dark olive bag 
+ dark olive bags contain no other bags.
+ uuu dark olive bag containset() 
+7152 after bag findings 
+ 
+dark olive bag is finished with coefficient 960 and children set() and is inside ['shiny gold bag', 'posh purple bag', 'striped teal bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'drab blue bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'wavy turquoise bag', 'striped teal bag', 'posh red bag', 'striped teal bag', 'faded olive bag', 'faded beige bag', 'pale brown bag', 'light chartreuse bag', 'faded beige bag', 'bright bronze bag', 'striped teal bag', 'clear plum bag', 'dull cyan bag', 'wavy crimson bag', 'pale orange bag', 'dark olive bag'] 
+
+7152 after new recursion, but still in old bag pale orange bag 
+ 1920*mirrored gold bag
+ 9072 change of bags mirrored gold bag 
+ mirrored gold bags contain 2 dark olive bags.
+ uuu mirrored gold bag contain{'2 dark olive bag'} 
+9072 after bag findings 
+ 3840*dark olive bag
+ 12912 change of bags dark olive bag 
+ dark olive bags contain no other bags.
+ uuu dark olive bag containset() 
+12912 after bag findings 
+ 
+dark olive bag is finished with coefficient 3840 and children set() and is inside ['shiny gold bag', 'posh purple bag', 'striped teal bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'drab blue bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'wavy turquoise bag', 'striped teal bag', 'posh red bag', 'striped teal bag', 'faded olive bag', 'faded beige bag', 'pale brown bag', 'light chartreuse bag', 'faded beige bag', 'bright bronze bag', 'striped teal bag', 'clear plum bag', 'dull cyan bag', 'wavy crimson bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag'] 
+
+12912 after new recursion, but still in old bag mirrored gold bag 
+ 
+mirrored gold bag is finished with coefficient 1920 and children {'2 dark olive bag'} and is inside ['shiny gold bag', 'posh purple bag', 'striped teal bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'drab blue bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'wavy turquoise bag', 'striped teal bag', 'posh red bag', 'striped teal bag', 'faded olive bag', 'faded beige bag', 'pale brown bag', 'light chartreuse bag', 'faded beige bag', 'bright bronze bag', 'striped teal bag', 'clear plum bag', 'dull cyan bag', 'wavy crimson bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag'] 
+
+12912 after new recursion, but still in old bag pale orange bag 
+ 1440*faded brown bag
+ 14352 change of bags faded brown bag 
+ faded brown bags contain 3 faded beige bags, 1 light chartreuse bag, 4 mirrored gold bags.
+ uuu faded brown bag contain{'3 faded beige bag', '4 mirrored gold bag', '1 light chartreuse bag'} 
+14352 after bag findings 
+ 4320*faded beige bag
+ 18672 change of bags faded beige bag 
+ faded beige bags contain no other bags.
+ uuu faded beige bag containset() 
+18672 after bag findings 
+ 
+faded beige bag is finished with coefficient 4320 and children set() and is inside ['shiny gold bag', 'posh purple bag', 'striped teal bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'drab blue bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'wavy turquoise bag', 'striped teal bag', 'posh red bag', 'striped teal bag', 'faded olive bag', 'faded beige bag', 'pale brown bag', 'light chartreuse bag', 'faded beige bag', 'bright bronze bag', 'striped teal bag', 'clear plum bag', 'dull cyan bag', 'wavy crimson bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag'] 
+
+18672 after new recursion, but still in old bag faded brown bag 
+ 5760*mirrored gold bag
+ 24432 change of bags mirrored gold bag 
+ mirrored gold bags contain 2 dark olive bags.
+ uuu mirrored gold bag contain{'2 dark olive bag'} 
+24432 after bag findings 
+ 11520*dark olive bag
+ 35952 change of bags dark olive bag 
+ dark olive bags contain no other bags.
+ uuu dark olive bag containset() 
+35952 after bag findings 
+ 
+dark olive bag is finished with coefficient 11520 and children set() and is inside ['shiny gold bag', 'posh purple bag', 'striped teal bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'drab blue bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'wavy turquoise bag', 'striped teal bag', 'posh red bag', 'striped teal bag', 'faded olive bag', 'faded beige bag', 'pale brown bag', 'light chartreuse bag', 'faded beige bag', 'bright bronze bag', 'striped teal bag', 'clear plum bag', 'dull cyan bag', 'wavy crimson bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag'] 
+
+35952 after new recursion, but still in old bag mirrored gold bag 
+ 
+mirrored gold bag is finished with coefficient 5760 and children {'2 dark olive bag'} and is inside ['shiny gold bag', 'posh purple bag', 'striped teal bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'drab blue bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'wavy turquoise bag', 'striped teal bag', 'posh red bag', 'striped teal bag', 'faded olive bag', 'faded beige bag', 'pale brown bag', 'light chartreuse bag', 'faded beige bag', 'bright bronze bag', 'striped teal bag', 'clear plum bag', 'dull cyan bag', 'wavy crimson bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag'] 
+
+35952 after new recursion, but still in old bag faded brown bag 
+ 1440*light chartreuse bag
+ 37392 change of bags light chartreuse bag 
+ light chartreuse bags contain no other bags.
+ uuu light chartreuse bag containset() 
+37392 after bag findings 
+ 
+light chartreuse bag is finished with coefficient 1440 and children set() and is inside ['shiny gold bag', 'posh purple bag', 'striped teal bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'drab blue bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'wavy turquoise bag', 'striped teal bag', 'posh red bag', 'striped teal bag', 'faded olive bag', 'faded beige bag', 'pale brown bag', 'light chartreuse bag', 'faded beige bag', 'bright bronze bag', 'striped teal bag', 'clear plum bag', 'dull cyan bag', 'wavy crimson bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag'] 
+
+37392 after new recursion, but still in old bag faded brown bag 
+ 
+faded brown bag is finished with coefficient 1440 and children {'3 faded beige bag', '4 mirrored gold bag', '1 light chartreuse bag'} and is inside ['shiny gold bag', 'posh purple bag', 'striped teal bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'drab blue bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'wavy turquoise bag', 'striped teal bag', 'posh red bag', 'striped teal bag', 'faded olive bag', 'faded beige bag', 'pale brown bag', 'light chartreuse bag', 'faded beige bag', 'bright bronze bag', 'striped teal bag', 'clear plum bag', 'dull cyan bag', 'wavy crimson bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag'] 
+
+37392 after new recursion, but still in old bag pale orange bag 
+ 
+pale orange bag is finished with coefficient 480 and children {'2 dark olive bag', '4 mirrored gold bag', '3 faded brown bag'} and is inside ['shiny gold bag', 'posh purple bag', 'striped teal bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'drab blue bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'wavy turquoise bag', 'striped teal bag', 'posh red bag', 'striped teal bag', 'faded olive bag', 'faded beige bag', 'pale brown bag', 'light chartreuse bag', 'faded beige bag', 'bright bronze bag', 'striped teal bag', 'clear plum bag', 'dull cyan bag', 'wavy crimson bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag'] 
+
+37392 after new recursion, but still in old bag dull cyan bag 
+ 
+dull cyan bag is finished with coefficient 480 and children {'5 wavy crimson bag', '1 pale orange bag'} and is inside ['shiny gold bag', 'posh purple bag', 'striped teal bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'drab blue bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'wavy turquoise bag', 'striped teal bag', 'posh red bag', 'striped teal bag', 'faded olive bag', 'faded beige bag', 'pale brown bag', 'light chartreuse bag', 'faded beige bag', 'bright bronze bag', 'striped teal bag', 'clear plum bag', 'dull cyan bag', 'wavy crimson bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag'] 
+
+37392 after new recursion, but still in old bag clear plum bag 
+ 
+clear plum bag is finished with coefficient 160 and children {'3 dull cyan bag'} and is inside ['shiny gold bag', 'posh purple bag', 'striped teal bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'drab blue bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'wavy turquoise bag', 'striped teal bag', 'posh red bag', 'striped teal bag', 'faded olive bag', 'faded beige bag', 'pale brown bag', 'light chartreuse bag', 'faded beige bag', 'bright bronze bag', 'striped teal bag', 'clear plum bag', 'dull cyan bag', 'wavy crimson bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag'] 
+
+37392 after new recursion, but still in old bag bright bronze bag 
+ 120*dim crimson bag
+ 37512 change of bags dim crimson bag 
+ dim crimson bags contain 5 faded blue bags, 1 dark blue bag, 2 striped teal bags.
+ uuu dim crimson bag contain{'2 striped teal bag', '5 faded blue bag', '1 dark blue bag'} 
+37512 after bag findings 
+ 240*striped teal bag
+ 37752 change of bags striped teal bag 
+ striped teal bags contain no other bags.
+ uuu striped teal bag containset() 
+37752 after bag findings 
+ 
+striped teal bag is finished with coefficient 240 and children set() and is inside ['shiny gold bag', 'posh purple bag', 'striped teal bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'drab blue bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'wavy turquoise bag', 'striped teal bag', 'posh red bag', 'striped teal bag', 'faded olive bag', 'faded beige bag', 'pale brown bag', 'light chartreuse bag', 'faded beige bag', 'bright bronze bag', 'striped teal bag', 'clear plum bag', 'dull cyan bag', 'wavy crimson bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag', 'dim crimson bag', 'striped teal bag'] 
+
+37752 after new recursion, but still in old bag dim crimson bag 
+ 600*faded blue bag
+ 38352 change of bags faded blue bag 
+ faded blue bags contain 1 striped tomato bag, 3 dark olive bags, 2 drab tan bags.
+ uuu faded blue bag contain{'1 striped tomato bag', '3 dark olive bag', '2 drab tan bag'} 
+38352 after bag findings 
+ 600*striped tomato bag
+ 38952 change of bags striped tomato bag 
+ striped tomato bags contain no other bags.
+ uuu striped tomato bag containset() 
+38952 after bag findings 
+ 
+striped tomato bag is finished with coefficient 600 and children set() and is inside ['shiny gold bag', 'posh purple bag', 'striped teal bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'drab blue bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'wavy turquoise bag', 'striped teal bag', 'posh red bag', 'striped teal bag', 'faded olive bag', 'faded beige bag', 'pale brown bag', 'light chartreuse bag', 'faded beige bag', 'bright bronze bag', 'striped teal bag', 'clear plum bag', 'dull cyan bag', 'wavy crimson bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag', 'dim crimson bag', 'striped teal bag', 'faded blue bag', 'striped tomato bag'] 
+
+38952 after new recursion, but still in old bag faded blue bag 
+ 1800*dark olive bag
+ 40752 change of bags dark olive bag 
+ dark olive bags contain no other bags.
+ uuu dark olive bag containset() 
+40752 after bag findings 
+ 
+dark olive bag is finished with coefficient 1800 and children set() and is inside ['shiny gold bag', 'posh purple bag', 'striped teal bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'drab blue bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'wavy turquoise bag', 'striped teal bag', 'posh red bag', 'striped teal bag', 'faded olive bag', 'faded beige bag', 'pale brown bag', 'light chartreuse bag', 'faded beige bag', 'bright bronze bag', 'striped teal bag', 'clear plum bag', 'dull cyan bag', 'wavy crimson bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag', 'dim crimson bag', 'striped teal bag', 'faded blue bag', 'striped tomato bag', 'dark olive bag'] 
+
+40752 after new recursion, but still in old bag faded blue bag 
+ 1200*drab tan bag
+ 41952 change of bags drab tan bag 
+ drab tan bags contain no other bags.
+ uuu drab tan bag containset() 
+41952 after bag findings 
+ 
+drab tan bag is finished with coefficient 1200 and children set() and is inside ['shiny gold bag', 'posh purple bag', 'striped teal bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'drab blue bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'wavy turquoise bag', 'striped teal bag', 'posh red bag', 'striped teal bag', 'faded olive bag', 'faded beige bag', 'pale brown bag', 'light chartreuse bag', 'faded beige bag', 'bright bronze bag', 'striped teal bag', 'clear plum bag', 'dull cyan bag', 'wavy crimson bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag', 'dim crimson bag', 'striped teal bag', 'faded blue bag', 'striped tomato bag', 'dark olive bag', 'drab tan bag'] 
+
+41952 after new recursion, but still in old bag faded blue bag 
+ 
+faded blue bag is finished with coefficient 600 and children {'1 striped tomato bag', '3 dark olive bag', '2 drab tan bag'} and is inside ['shiny gold bag', 'posh purple bag', 'striped teal bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'drab blue bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'wavy turquoise bag', 'striped teal bag', 'posh red bag', 'striped teal bag', 'faded olive bag', 'faded beige bag', 'pale brown bag', 'light chartreuse bag', 'faded beige bag', 'bright bronze bag', 'striped teal bag', 'clear plum bag', 'dull cyan bag', 'wavy crimson bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag', 'dim crimson bag', 'striped teal bag', 'faded blue bag', 'striped tomato bag', 'dark olive bag', 'drab tan bag'] 
+
+41952 after new recursion, but still in old bag dim crimson bag 
+ 120*dark blue bag
+ 42072 change of bags dark blue bag 
+ dark blue bags contain no other bags.
+ uuu dark blue bag containset() 
+42072 after bag findings 
+ 
+dark blue bag is finished with coefficient 120 and children set() and is inside ['shiny gold bag', 'posh purple bag', 'striped teal bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'drab blue bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'wavy turquoise bag', 'striped teal bag', 'posh red bag', 'striped teal bag', 'faded olive bag', 'faded beige bag', 'pale brown bag', 'light chartreuse bag', 'faded beige bag', 'bright bronze bag', 'striped teal bag', 'clear plum bag', 'dull cyan bag', 'wavy crimson bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag', 'dim crimson bag', 'striped teal bag', 'faded blue bag', 'striped tomato bag', 'dark olive bag', 'drab tan bag', 'dark blue bag'] 
+
+42072 after new recursion, but still in old bag dim crimson bag 
+ 
+dim crimson bag is finished with coefficient 120 and children {'2 striped teal bag', '5 faded blue bag', '1 dark blue bag'} and is inside ['shiny gold bag', 'posh purple bag', 'striped teal bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'drab blue bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'wavy turquoise bag', 'striped teal bag', 'posh red bag', 'striped teal bag', 'faded olive bag', 'faded beige bag', 'pale brown bag', 'light chartreuse bag', 'faded beige bag', 'bright bronze bag', 'striped teal bag', 'clear plum bag', 'dull cyan bag', 'wavy crimson bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag', 'dim crimson bag', 'striped teal bag', 'faded blue bag', 'striped tomato bag', 'dark olive bag', 'drab tan bag', 'dark blue bag'] 
+
+42072 after new recursion, but still in old bag bright bronze bag 
+ 200*faded black bag
+ 42272 change of bags faded black bag 
+ faded black bags contain 2 striped teal bags, 5 faded beige bags, 4 wavy black bags, 1 striped lavender bag.
+ uuu faded black bag contain{'2 striped teal bag', '5 faded beige bag', '1 striped lavender bag', '4 wavy black bag'} 
+42272 after bag findings 
+ 400*striped teal bag
+ 42672 change of bags striped teal bag 
+ striped teal bags contain no other bags.
+ uuu striped teal bag containset() 
+42672 after bag findings 
+ 
+striped teal bag is finished with coefficient 400 and children set() and is inside ['shiny gold bag', 'posh purple bag', 'striped teal bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'drab blue bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'wavy turquoise bag', 'striped teal bag', 'posh red bag', 'striped teal bag', 'faded olive bag', 'faded beige bag', 'pale brown bag', 'light chartreuse bag', 'faded beige bag', 'bright bronze bag', 'striped teal bag', 'clear plum bag', 'dull cyan bag', 'wavy crimson bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag', 'dim crimson bag', 'striped teal bag', 'faded blue bag', 'striped tomato bag', 'dark olive bag', 'drab tan bag', 'dark blue bag', 'faded black bag', 'striped teal bag'] 
+
+42672 after new recursion, but still in old bag faded black bag 
+ 1000*faded beige bag
+ 43672 change of bags faded beige bag 
+ faded beige bags contain no other bags.
+ uuu faded beige bag containset() 
+43672 after bag findings 
+ 
+faded beige bag is finished with coefficient 1000 and children set() and is inside ['shiny gold bag', 'posh purple bag', 'striped teal bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'drab blue bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'wavy turquoise bag', 'striped teal bag', 'posh red bag', 'striped teal bag', 'faded olive bag', 'faded beige bag', 'pale brown bag', 'light chartreuse bag', 'faded beige bag', 'bright bronze bag', 'striped teal bag', 'clear plum bag', 'dull cyan bag', 'wavy crimson bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag', 'dim crimson bag', 'striped teal bag', 'faded blue bag', 'striped tomato bag', 'dark olive bag', 'drab tan bag', 'dark blue bag', 'faded black bag', 'striped teal bag', 'faded beige bag'] 
+
+43672 after new recursion, but still in old bag faded black bag 
+ 200*striped lavender bag
+ 43872 change of bags striped lavender bag 
+ striped lavender bags contain 5 wavy crimson bags.
+ uuu striped lavender bag contain{'5 wavy crimson bag'} 
+43872 after bag findings 
+ 1000*wavy crimson bag
+ 44872 change of bags wavy crimson bag 
+ wavy crimson bags contain no other bags.
+ uuu wavy crimson bag containset() 
+44872 after bag findings 
+ 
+wavy crimson bag is finished with coefficient 1000 and children set() and is inside ['shiny gold bag', 'posh purple bag', 'striped teal bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'drab blue bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'wavy turquoise bag', 'striped teal bag', 'posh red bag', 'striped teal bag', 'faded olive bag', 'faded beige bag', 'pale brown bag', 'light chartreuse bag', 'faded beige bag', 'bright bronze bag', 'striped teal bag', 'clear plum bag', 'dull cyan bag', 'wavy crimson bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag', 'dim crimson bag', 'striped teal bag', 'faded blue bag', 'striped tomato bag', 'dark olive bag', 'drab tan bag', 'dark blue bag', 'faded black bag', 'striped teal bag', 'faded beige bag', 'striped lavender bag', 'wavy crimson bag'] 
+
+44872 after new recursion, but still in old bag striped lavender bag 
+ 
+striped lavender bag is finished with coefficient 200 and children {'5 wavy crimson bag'} and is inside ['shiny gold bag', 'posh purple bag', 'striped teal bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'drab blue bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'wavy turquoise bag', 'striped teal bag', 'posh red bag', 'striped teal bag', 'faded olive bag', 'faded beige bag', 'pale brown bag', 'light chartreuse bag', 'faded beige bag', 'bright bronze bag', 'striped teal bag', 'clear plum bag', 'dull cyan bag', 'wavy crimson bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag', 'dim crimson bag', 'striped teal bag', 'faded blue bag', 'striped tomato bag', 'dark olive bag', 'drab tan bag', 'dark blue bag', 'faded black bag', 'striped teal bag', 'faded beige bag', 'striped lavender bag', 'wavy crimson bag'] 
+
+44872 after new recursion, but still in old bag faded black bag 
+ 800*wavy black bag
+ 45672 change of bags wavy black bag 
+ wavy black bags contain 4 faded beige bags, 2 striped red bags, 2 pale brown bags, 3 dull yellow bags.
+ uuu wavy black bag contain{'3 dull yellow bag', '2 striped red bag', '2 pale brown bag', '4 faded beige bag'} 
+45672 after bag findings 
+ 2400*dull yellow bag
+ 48072 change of bags dull yellow bag 
+ dull yellow bags contain 2 dark blue bags, 4 striped tomato bags, 2 striped red bags, 3 pale brown bags.
+ uuu dull yellow bag contain{'2 dark blue bag', '3 pale brown bag', '2 striped red bag', '4 striped tomato bag'} 
+48072 after bag findings 
+ 4800*dark blue bag
+ 52872 change of bags dark blue bag 
+ dark blue bags contain no other bags.
+ uuu dark blue bag containset() 
+52872 after bag findings 
+ 
+dark blue bag is finished with coefficient 4800 and children set() and is inside ['shiny gold bag', 'posh purple bag', 'striped teal bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'drab blue bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'wavy turquoise bag', 'striped teal bag', 'posh red bag', 'striped teal bag', 'faded olive bag', 'faded beige bag', 'pale brown bag', 'light chartreuse bag', 'faded beige bag', 'bright bronze bag', 'striped teal bag', 'clear plum bag', 'dull cyan bag', 'wavy crimson bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag', 'dim crimson bag', 'striped teal bag', 'faded blue bag', 'striped tomato bag', 'dark olive bag', 'drab tan bag', 'dark blue bag', 'faded black bag', 'striped teal bag', 'faded beige bag', 'striped lavender bag', 'wavy crimson bag', 'wavy black bag', 'dull yellow bag', 'dark blue bag'] 
+
+52872 after new recursion, but still in old bag dull yellow bag 
+ 7200*pale brown bag
+ 60072 change of bags pale brown bag 
+ pale brown bags contain no other bags.
+ uuu pale brown bag containset() 
+60072 after bag findings 
+ 
+pale brown bag is finished with coefficient 7200 and children set() and is inside ['shiny gold bag', 'posh purple bag', 'striped teal bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'drab blue bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'wavy turquoise bag', 'striped teal bag', 'posh red bag', 'striped teal bag', 'faded olive bag', 'faded beige bag', 'pale brown bag', 'light chartreuse bag', 'faded beige bag', 'bright bronze bag', 'striped teal bag', 'clear plum bag', 'dull cyan bag', 'wavy crimson bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag', 'dim crimson bag', 'striped teal bag', 'faded blue bag', 'striped tomato bag', 'dark olive bag', 'drab tan bag', 'dark blue bag', 'faded black bag', 'striped teal bag', 'faded beige bag', 'striped lavender bag', 'wavy crimson bag', 'wavy black bag', 'dull yellow bag', 'dark blue bag', 'pale brown bag'] 
+
+60072 after new recursion, but still in old bag dull yellow bag 
+ 4800*striped red bag
+ 64872 change of bags striped red bag 
+ striped red bags contain no other bags.
+ uuu striped red bag containset() 
+64872 after bag findings 
+ 
+striped red bag is finished with coefficient 4800 and children set() and is inside ['shiny gold bag', 'posh purple bag', 'striped teal bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'drab blue bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'wavy turquoise bag', 'striped teal bag', 'posh red bag', 'striped teal bag', 'faded olive bag', 'faded beige bag', 'pale brown bag', 'light chartreuse bag', 'faded beige bag', 'bright bronze bag', 'striped teal bag', 'clear plum bag', 'dull cyan bag', 'wavy crimson bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag', 'dim crimson bag', 'striped teal bag', 'faded blue bag', 'striped tomato bag', 'dark olive bag', 'drab tan bag', 'dark blue bag', 'faded black bag', 'striped teal bag', 'faded beige bag', 'striped lavender bag', 'wavy crimson bag', 'wavy black bag', 'dull yellow bag', 'dark blue bag', 'pale brown bag', 'striped red bag'] 
+
+64872 after new recursion, but still in old bag dull yellow bag 
+ 9600*striped tomato bag
+ 74472 change of bags striped tomato bag 
+ striped tomato bags contain no other bags.
+ uuu striped tomato bag containset() 
+74472 after bag findings 
+ 
+striped tomato bag is finished with coefficient 9600 and children set() and is inside ['shiny gold bag', 'posh purple bag', 'striped teal bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'drab blue bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'wavy turquoise bag', 'striped teal bag', 'posh red bag', 'striped teal bag', 'faded olive bag', 'faded beige bag', 'pale brown bag', 'light chartreuse bag', 'faded beige bag', 'bright bronze bag', 'striped teal bag', 'clear plum bag', 'dull cyan bag', 'wavy crimson bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag', 'dim crimson bag', 'striped teal bag', 'faded blue bag', 'striped tomato bag', 'dark olive bag', 'drab tan bag', 'dark blue bag', 'faded black bag', 'striped teal bag', 'faded beige bag', 'striped lavender bag', 'wavy crimson bag', 'wavy black bag', 'dull yellow bag', 'dark blue bag', 'pale brown bag', 'striped red bag', 'striped tomato bag'] 
+
+74472 after new recursion, but still in old bag dull yellow bag 
+ 
+dull yellow bag is finished with coefficient 2400 and children {'2 dark blue bag', '3 pale brown bag', '2 striped red bag', '4 striped tomato bag'} and is inside ['shiny gold bag', 'posh purple bag', 'striped teal bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'drab blue bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'wavy turquoise bag', 'striped teal bag', 'posh red bag', 'striped teal bag', 'faded olive bag', 'faded beige bag', 'pale brown bag', 'light chartreuse bag', 'faded beige bag', 'bright bronze bag', 'striped teal bag', 'clear plum bag', 'dull cyan bag', 'wavy crimson bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag', 'dim crimson bag', 'striped teal bag', 'faded blue bag', 'striped tomato bag', 'dark olive bag', 'drab tan bag', 'dark blue bag', 'faded black bag', 'striped teal bag', 'faded beige bag', 'striped lavender bag', 'wavy crimson bag', 'wavy black bag', 'dull yellow bag', 'dark blue bag', 'pale brown bag', 'striped red bag', 'striped tomato bag'] 
+
+74472 after new recursion, but still in old bag wavy black bag 
+ 1600*striped red bag
+ 76072 change of bags striped red bag 
+ striped red bags contain no other bags.
+ uuu striped red bag containset() 
+76072 after bag findings 
+ 
+striped red bag is finished with coefficient 1600 and children set() and is inside ['shiny gold bag', 'posh purple bag', 'striped teal bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'drab blue bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'wavy turquoise bag', 'striped teal bag', 'posh red bag', 'striped teal bag', 'faded olive bag', 'faded beige bag', 'pale brown bag', 'light chartreuse bag', 'faded beige bag', 'bright bronze bag', 'striped teal bag', 'clear plum bag', 'dull cyan bag', 'wavy crimson bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag', 'dim crimson bag', 'striped teal bag', 'faded blue bag', 'striped tomato bag', 'dark olive bag', 'drab tan bag', 'dark blue bag', 'faded black bag', 'striped teal bag', 'faded beige bag', 'striped lavender bag', 'wavy crimson bag', 'wavy black bag', 'dull yellow bag', 'dark blue bag', 'pale brown bag', 'striped red bag', 'striped tomato bag', 'striped red bag'] 
+
+76072 after new recursion, but still in old bag wavy black bag 
+ 1600*pale brown bag
+ 77672 change of bags pale brown bag 
+ pale brown bags contain no other bags.
+ uuu pale brown bag containset() 
+77672 after bag findings 
+ 
+pale brown bag is finished with coefficient 1600 and children set() and is inside ['shiny gold bag', 'posh purple bag', 'striped teal bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'drab blue bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'wavy turquoise bag', 'striped teal bag', 'posh red bag', 'striped teal bag', 'faded olive bag', 'faded beige bag', 'pale brown bag', 'light chartreuse bag', 'faded beige bag', 'bright bronze bag', 'striped teal bag', 'clear plum bag', 'dull cyan bag', 'wavy crimson bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag', 'dim crimson bag', 'striped teal bag', 'faded blue bag', 'striped tomato bag', 'dark olive bag', 'drab tan bag', 'dark blue bag', 'faded black bag', 'striped teal bag', 'faded beige bag', 'striped lavender bag', 'wavy crimson bag', 'wavy black bag', 'dull yellow bag', 'dark blue bag', 'pale brown bag', 'striped red bag', 'striped tomato bag', 'striped red bag', 'pale brown bag'] 
+
+77672 after new recursion, but still in old bag wavy black bag 
+ 3200*faded beige bag
+ 80872 change of bags faded beige bag 
+ faded beige bags contain no other bags.
+ uuu faded beige bag containset() 
+80872 after bag findings 
+ 
+faded beige bag is finished with coefficient 3200 and children set() and is inside ['shiny gold bag', 'posh purple bag', 'striped teal bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'drab blue bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'wavy turquoise bag', 'striped teal bag', 'posh red bag', 'striped teal bag', 'faded olive bag', 'faded beige bag', 'pale brown bag', 'light chartreuse bag', 'faded beige bag', 'bright bronze bag', 'striped teal bag', 'clear plum bag', 'dull cyan bag', 'wavy crimson bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag', 'dim crimson bag', 'striped teal bag', 'faded blue bag', 'striped tomato bag', 'dark olive bag', 'drab tan bag', 'dark blue bag', 'faded black bag', 'striped teal bag', 'faded beige bag', 'striped lavender bag', 'wavy crimson bag', 'wavy black bag', 'dull yellow bag', 'dark blue bag', 'pale brown bag', 'striped red bag', 'striped tomato bag', 'striped red bag', 'pale brown bag', 'faded beige bag'] 
+
+80872 after new recursion, but still in old bag wavy black bag 
+ 
+wavy black bag is finished with coefficient 800 and children {'3 dull yellow bag', '2 striped red bag', '2 pale brown bag', '4 faded beige bag'} and is inside ['shiny gold bag', 'posh purple bag', 'striped teal bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'drab blue bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'wavy turquoise bag', 'striped teal bag', 'posh red bag', 'striped teal bag', 'faded olive bag', 'faded beige bag', 'pale brown bag', 'light chartreuse bag', 'faded beige bag', 'bright bronze bag', 'striped teal bag', 'clear plum bag', 'dull cyan bag', 'wavy crimson bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag', 'dim crimson bag', 'striped teal bag', 'faded blue bag', 'striped tomato bag', 'dark olive bag', 'drab tan bag', 'dark blue bag', 'faded black bag', 'striped teal bag', 'faded beige bag', 'striped lavender bag', 'wavy crimson bag', 'wavy black bag', 'dull yellow bag', 'dark blue bag', 'pale brown bag', 'striped red bag', 'striped tomato bag', 'striped red bag', 'pale brown bag', 'faded beige bag'] 
+
+80872 after new recursion, but still in old bag faded black bag 
+ 
+faded black bag is finished with coefficient 200 and children {'2 striped teal bag', '5 faded beige bag', '1 striped lavender bag', '4 wavy black bag'} and is inside ['shiny gold bag', 'posh purple bag', 'striped teal bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'drab blue bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'wavy turquoise bag', 'striped teal bag', 'posh red bag', 'striped teal bag', 'faded olive bag', 'faded beige bag', 'pale brown bag', 'light chartreuse bag', 'faded beige bag', 'bright bronze bag', 'striped teal bag', 'clear plum bag', 'dull cyan bag', 'wavy crimson bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag', 'dim crimson bag', 'striped teal bag', 'faded blue bag', 'striped tomato bag', 'dark olive bag', 'drab tan bag', 'dark blue bag', 'faded black bag', 'striped teal bag', 'faded beige bag', 'striped lavender bag', 'wavy crimson bag', 'wavy black bag', 'dull yellow bag', 'dark blue bag', 'pale brown bag', 'striped red bag', 'striped tomato bag', 'striped red bag', 'pale brown bag', 'faded beige bag'] 
+
+80872 after new recursion, but still in old bag bright bronze bag 
+ 
+bright bronze bag is finished with coefficient 40 and children {'2 striped teal bag', '4 clear plum bag', '3 dim crimson bag', '5 faded black bag'} and is inside ['shiny gold bag', 'posh purple bag', 'striped teal bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'drab blue bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'wavy turquoise bag', 'striped teal bag', 'posh red bag', 'striped teal bag', 'faded olive bag', 'faded beige bag', 'pale brown bag', 'light chartreuse bag', 'faded beige bag', 'bright bronze bag', 'striped teal bag', 'clear plum bag', 'dull cyan bag', 'wavy crimson bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag', 'dim crimson bag', 'striped teal bag', 'faded blue bag', 'striped tomato bag', 'dark olive bag', 'drab tan bag', 'dark blue bag', 'faded black bag', 'striped teal bag', 'faded beige bag', 'striped lavender bag', 'wavy crimson bag', 'wavy black bag', 'dull yellow bag', 'dark blue bag', 'pale brown bag', 'striped red bag', 'striped tomato bag', 'striped red bag', 'pale brown bag', 'faded beige bag'] 
+
+80872 after new recursion, but still in old bag posh red bag 
+ 
+posh red bag is finished with coefficient 20 and children {'5 striped teal bag', '4 faded olive bag', '5 faded beige bag', '2 bright bronze bag'} and is inside ['shiny gold bag', 'posh purple bag', 'striped teal bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'drab blue bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'wavy turquoise bag', 'striped teal bag', 'posh red bag', 'striped teal bag', 'faded olive bag', 'faded beige bag', 'pale brown bag', 'light chartreuse bag', 'faded beige bag', 'bright bronze bag', 'striped teal bag', 'clear plum bag', 'dull cyan bag', 'wavy crimson bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag', 'dim crimson bag', 'striped teal bag', 'faded blue bag', 'striped tomato bag', 'dark olive bag', 'drab tan bag', 'dark blue bag', 'faded black bag', 'striped teal bag', 'faded beige bag', 'striped lavender bag', 'wavy crimson bag', 'wavy black bag', 'dull yellow bag', 'dark blue bag', 'pale brown bag', 'striped red bag', 'striped tomato bag', 'striped red bag', 'pale brown bag', 'faded beige bag'] 
+
+80872 after new recursion, but still in old bag wavy turquoise bag 
+ 
+wavy turquoise bag is finished with coefficient 4 and children {'4 striped teal bag', '5 posh red bag'} and is inside ['shiny gold bag', 'posh purple bag', 'striped teal bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'drab blue bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'wavy turquoise bag', 'striped teal bag', 'posh red bag', 'striped teal bag', 'faded olive bag', 'faded beige bag', 'pale brown bag', 'light chartreuse bag', 'faded beige bag', 'bright bronze bag', 'striped teal bag', 'clear plum bag', 'dull cyan bag', 'wavy crimson bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag', 'dim crimson bag', 'striped teal bag', 'faded blue bag', 'striped tomato bag', 'dark olive bag', 'drab tan bag', 'dark blue bag', 'faded black bag', 'striped teal bag', 'faded beige bag', 'striped lavender bag', 'wavy crimson bag', 'wavy black bag', 'dull yellow bag', 'dark blue bag', 'pale brown bag', 'striped red bag', 'striped tomato bag', 'striped red bag', 'pale brown bag', 'faded beige bag'] 
+
+80872 after new recursion, but still in old bag shiny gold bag 
+ 2*drab silver bag
+ 80874 change of bags drab silver bag 
+ drab silver bags contain 2 dark blue bags, 3 light chartreuse bags, 3 mirrored gold bags.
+ uuu drab silver bag contain{'3 light chartreuse bag', '2 dark blue bag', '3 mirrored gold bag'} 
+80874 after bag findings 
+ 6*light chartreuse bag
+ 80880 change of bags light chartreuse bag 
+ light chartreuse bags contain no other bags.
+ uuu light chartreuse bag containset() 
+80880 after bag findings 
+ 
+light chartreuse bag is finished with coefficient 6 and children set() and is inside ['shiny gold bag', 'posh purple bag', 'striped teal bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'drab blue bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'wavy turquoise bag', 'striped teal bag', 'posh red bag', 'striped teal bag', 'faded olive bag', 'faded beige bag', 'pale brown bag', 'light chartreuse bag', 'faded beige bag', 'bright bronze bag', 'striped teal bag', 'clear plum bag', 'dull cyan bag', 'wavy crimson bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag', 'dim crimson bag', 'striped teal bag', 'faded blue bag', 'striped tomato bag', 'dark olive bag', 'drab tan bag', 'dark blue bag', 'faded black bag', 'striped teal bag', 'faded beige bag', 'striped lavender bag', 'wavy crimson bag', 'wavy black bag', 'dull yellow bag', 'dark blue bag', 'pale brown bag', 'striped red bag', 'striped tomato bag', 'striped red bag', 'pale brown bag', 'faded beige bag', 'drab silver bag', 'light chartreuse bag'] 
+
+80880 after new recursion, but still in old bag drab silver bag 
+ 4*dark blue bag
+ 80884 change of bags dark blue bag 
+ dark blue bags contain no other bags.
+ uuu dark blue bag containset() 
+80884 after bag findings 
+ 
+dark blue bag is finished with coefficient 4 and children set() and is inside ['shiny gold bag', 'posh purple bag', 'striped teal bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'drab blue bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'wavy turquoise bag', 'striped teal bag', 'posh red bag', 'striped teal bag', 'faded olive bag', 'faded beige bag', 'pale brown bag', 'light chartreuse bag', 'faded beige bag', 'bright bronze bag', 'striped teal bag', 'clear plum bag', 'dull cyan bag', 'wavy crimson bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag', 'dim crimson bag', 'striped teal bag', 'faded blue bag', 'striped tomato bag', 'dark olive bag', 'drab tan bag', 'dark blue bag', 'faded black bag', 'striped teal bag', 'faded beige bag', 'striped lavender bag', 'wavy crimson bag', 'wavy black bag', 'dull yellow bag', 'dark blue bag', 'pale brown bag', 'striped red bag', 'striped tomato bag', 'striped red bag', 'pale brown bag', 'faded beige bag', 'drab silver bag', 'light chartreuse bag', 'dark blue bag'] 
+
+80884 after new recursion, but still in old bag drab silver bag 
+ 6*mirrored gold bag
+ 80890 change of bags mirrored gold bag 
+ mirrored gold bags contain 2 dark olive bags.
+ uuu mirrored gold bag contain{'2 dark olive bag'} 
+80890 after bag findings 
+ 12*dark olive bag
+ 80902 change of bags dark olive bag 
+ dark olive bags contain no other bags.
+ uuu dark olive bag containset() 
+80902 after bag findings 
+ 
+dark olive bag is finished with coefficient 12 and children set() and is inside ['shiny gold bag', 'posh purple bag', 'striped teal bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'drab blue bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'wavy turquoise bag', 'striped teal bag', 'posh red bag', 'striped teal bag', 'faded olive bag', 'faded beige bag', 'pale brown bag', 'light chartreuse bag', 'faded beige bag', 'bright bronze bag', 'striped teal bag', 'clear plum bag', 'dull cyan bag', 'wavy crimson bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag', 'dim crimson bag', 'striped teal bag', 'faded blue bag', 'striped tomato bag', 'dark olive bag', 'drab tan bag', 'dark blue bag', 'faded black bag', 'striped teal bag', 'faded beige bag', 'striped lavender bag', 'wavy crimson bag', 'wavy black bag', 'dull yellow bag', 'dark blue bag', 'pale brown bag', 'striped red bag', 'striped tomato bag', 'striped red bag', 'pale brown bag', 'faded beige bag', 'drab silver bag', 'light chartreuse bag', 'dark blue bag', 'mirrored gold bag', 'dark olive bag'] 
+
+80902 after new recursion, but still in old bag mirrored gold bag 
+ 
+mirrored gold bag is finished with coefficient 6 and children {'2 dark olive bag'} and is inside ['shiny gold bag', 'posh purple bag', 'striped teal bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'drab blue bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'wavy turquoise bag', 'striped teal bag', 'posh red bag', 'striped teal bag', 'faded olive bag', 'faded beige bag', 'pale brown bag', 'light chartreuse bag', 'faded beige bag', 'bright bronze bag', 'striped teal bag', 'clear plum bag', 'dull cyan bag', 'wavy crimson bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag', 'dim crimson bag', 'striped teal bag', 'faded blue bag', 'striped tomato bag', 'dark olive bag', 'drab tan bag', 'dark blue bag', 'faded black bag', 'striped teal bag', 'faded beige bag', 'striped lavender bag', 'wavy crimson bag', 'wavy black bag', 'dull yellow bag', 'dark blue bag', 'pale brown bag', 'striped red bag', 'striped tomato bag', 'striped red bag', 'pale brown bag', 'faded beige bag', 'drab silver bag', 'light chartreuse bag', 'dark blue bag', 'mirrored gold bag', 'dark olive bag'] 
+
+80902 after new recursion, but still in old bag drab silver bag 
+ 
+drab silver bag is finished with coefficient 2 and children {'3 light chartreuse bag', '2 dark blue bag', '3 mirrored gold bag'} and is inside ['shiny gold bag', 'posh purple bag', 'striped teal bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'drab blue bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'wavy turquoise bag', 'striped teal bag', 'posh red bag', 'striped teal bag', 'faded olive bag', 'faded beige bag', 'pale brown bag', 'light chartreuse bag', 'faded beige bag', 'bright bronze bag', 'striped teal bag', 'clear plum bag', 'dull cyan bag', 'wavy crimson bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag', 'dim crimson bag', 'striped teal bag', 'faded blue bag', 'striped tomato bag', 'dark olive bag', 'drab tan bag', 'dark blue bag', 'faded black bag', 'striped teal bag', 'faded beige bag', 'striped lavender bag', 'wavy crimson bag', 'wavy black bag', 'dull yellow bag', 'dark blue bag', 'pale brown bag', 'striped red bag', 'striped tomato bag', 'striped red bag', 'pale brown bag', 'faded beige bag', 'drab silver bag', 'light chartreuse bag', 'dark blue bag', 'mirrored gold bag', 'dark olive bag'] 
+
+80902 after new recursion, but still in old bag shiny gold bag 
+ 
+shiny gold bag is finished with coefficient 1 and children {'4 posh purple bag', '4 drab blue bag', '4 wavy turquoise bag', '2 drab silver bag'} and is inside ['shiny gold bag', 'posh purple bag', 'striped teal bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'drab blue bag', 'dull salmon bag', 'striped teal bag', 'wavy crimson bag', 'dark blue bag', 'drab tan bag', 'wavy turquoise bag', 'striped teal bag', 'posh red bag', 'striped teal bag', 'faded olive bag', 'faded beige bag', 'pale brown bag', 'light chartreuse bag', 'faded beige bag', 'bright bronze bag', 'striped teal bag', 'clear plum bag', 'dull cyan bag', 'wavy crimson bag', 'pale orange bag', 'dark olive bag', 'mirrored gold bag', 'dark olive bag', 'faded brown bag', 'faded beige bag', 'mirrored gold bag', 'dark olive bag', 'light chartreuse bag', 'dim crimson bag', 'striped teal bag', 'faded blue bag', 'striped tomato bag', 'dark olive bag', 'drab tan bag', 'dark blue bag', 'faded black bag', 'striped teal bag', 'faded beige bag', 'striped lavender bag', 'wavy crimson bag', 'wavy black bag', 'dull yellow bag', 'dark blue bag', 'pale brown bag', 'striped red bag', 'striped tomato bag', 'striped red bag', 'pale brown bag', 'faded beige bag', 'drab silver bag', 'light chartreuse bag', 'dark blue bag', 'mirrored gold bag', 'dark olive bag'] 
+

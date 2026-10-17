@@ -1,0 +1,66 @@
+import re
+# we subtract the first bag we only want those in the bag
+result=-0.5
+def godeeperinbag(bag,coefficient,partialresult,inside):
+    localset=set()
+    isincluded=False
+    partialresult+=coefficient
+    bag=bag[2:]
+    inside.append(str(bag))
+    with open("day7/logs.txt", "a") as f: 
+        f.write(f"{int(partialresult)} change of bags {bag} \n ")
+    with open('day7/input.txt', 'r') as file:
+                for line in file:   
+                    if line.startswith(bag+"s contain"):
+                        isincluded= True
+                        with open("day7/logs.txt", "a") as f:
+                             f.write(f"{line} uuu {bag} contain")    
+                        #goodbag.add(line[re.search(r"\d+", line).start():re.search(r",", line).start()])
+                        #goodbag.update(re.findall(r"\d+[^,]*(?=,)", line))
+                        localset.update(m.removesuffix("s") for m in re.findall(r"\d+[^.,]*(?=[.,])", line))
+                        with open("day7/logs.txt", "a") as f:
+                            f.write(f"{str(localset)} \n")
+                        with open("day7/logs.txt", "a") as f: 
+                            f.write(f"{int(partialresult)} after bag findings \n ")
+                if (isincluded):
+                    pass
+                else:
+                    with open("day7/excludedbags.txt", "a") as f:
+                        f.write(str(bag))
+                    with open("day7/logs.txt", "a") as f:
+                        f.write(f"bag is missing")
+                for newbags in localset:
+                    with open("day7/logs.txt", "a") as f: 
+                        f.write(f"{int(coefficient)*int(newbags[0])}*{newbags[2:]}\n ")
+                    partialresult=godeeperinbag(newbags,int(coefficient)*int(newbags[0]),partialresult,inside)
+                    #print("partialresult is:",partialresult)
+                    with open("day7/logs.txt", "a") as f: 
+                        f.write(f"{int(partialresult)} after new recursion, but still in old bag {bag} \n ")
+    with open("day7/logs.txt", "a") as f: 
+        f.write("\n")
+        f.write(f"{bag} is finished with coefficient {coefficient} and children {localset} and is inside {inside} ")
+        f.write("\n")
+        f.write("\n")
+    return partialresult
+with open("day7/output.txt", "w"):
+    pass
+with open("day7/logs.txt", "w"):
+    pass
+with open("day7/excludedbags.txt", "w"):
+    pass
+variable=''
+i=0
+goodbag=set()
+test=set()
+helperset=set()
+badbag=set()
+emptyinside=[]
+newbags="  shiny gold bag"
+result+=godeeperinbag(newbags,int(1),result,emptyinside)
+
+
+print('the result is:',result)
+
+
+
+    

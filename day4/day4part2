@@ -1,0 +1,159 @@
+import re
+
+
+def checker(criteria,passport):
+    print(criteria)
+    if criteria not in passport:
+        print(criteria ,'not in', passport)
+        return False
+        exit()
+    find = passport.index(criteria)
+    if criteria in ('byr','iyr','eyr'):
+        if not( all(int(findstringyear(find,passport)) < item for item in typesofyearcheck(criteria))) and not (all(int(findstringyear(find,passport)) > item for item in typesofyearcheck(criteria))) :
+            return True
+        else:
+             print('false on', criteria, passport)
+             return False
+    elif criteria in ('hgt'):
+        if((iscm(find,passport) and islegitcm(find,passport)) or (isinch(find,passport) and islegitinch(find,passport))):
+            return True
+        else:
+             print('false on', criteria, passport)
+             return False
+    elif criteria in ('hcl','ecl'):
+         if (criteria=='ecl' and isvalideyecolour(find,passport)) or (criteria=='hcl' and isvalidhaircolour(find,passport)) : 
+            return True
+         else:
+            print('false on', criteria, passport)
+            return False
+    elif criteria in ('pid'):
+         if isninenumbers(find,passport):
+             return True
+         else:
+            print('false on', criteria, passport)
+            return False
+    else:
+        print('false')
+        return False
+
+def isvalideyecolour(findindex,passport):
+    if passport[findindex+4:findindex+7] in ['amb', 'blu', 'brn', 'gry', 'grn', 'hzl', 'oth']:
+        return True
+    else:
+        return False
+
+def isvalidhaircolour(findindex,passport):
+    print(passport[findindex+4:findindex+11])
+    if re.fullmatch(r'#[a-f0-9]{6}',passport[findindex+4:findindex+11]):
+        return True
+    else:
+        return False
+def isninenumbers(findindex,passport):
+    if re.fullmatch(r'\d{9}',passport[findindex+4:findindex+13])  and not re.fullmatch(r'\d{10}',passport[findindex+4:findindex+14]):
+        return True
+    else:
+        print(passport[findindex+4:findindex+13])
+        return False
+def iscm(findindex,passport):
+    if passport[findindex+7:findindex+9] == 'cm':
+        return True
+    else:
+        return False
+
+def isinch(findindex,passport):
+    if passport[findindex+6:findindex+8] == 'in':
+        return True
+    else:
+        return False
+    
+def islegitinch(findindex,passport):
+    if int(passport[findindex+4:findindex+6]) <= 76 and int(passport[findindex+4:findindex+6]) >= 59:
+        return True
+    else:
+        return False
+
+def islegitcm(findindex,passport):
+    if int(passport[findindex+4:findindex+7]) <= 193 and int(passport[findindex+4:findindex+7]) >= 150:
+        return True
+    else:
+        return False
+
+def typesofyearcheck(criteria):
+    if criteria == 'byr':
+        low=1920
+        high=2002
+    elif criteria== 'iyr':
+        low=2010
+        high=2020
+    elif criteria== 'eyr':
+        low=2020
+        high=2030
+    return [low,high]
+def findstringyear(findindex,passport):
+    if len(passport)> findindex+9:
+        if re.fullmatch(r'[0-9]+', passport[findindex+9]):
+            year='0000'
+            print(year)
+            exit()
+        else:
+           year= passport[findindex+4:findindex+8]
+    else:
+        year= passport[findindex+4:findindex+8]
+    print(year)
+    return(year)
+
+def findstringcolour(findindex,passport):
+    colour= passport[findindex+4:findindex+8] 
+    print(colour)
+    return(colour)
+
+
+with open('day4/input.txt', 'r') as file:
+    result=0
+    passports=[]
+    validpassports=[]
+    i=0
+    helper=''
+    valid=0
+    requirements= ['byr','iyr','eyr','hgt','hcl','ecl','pid']
+    for line in file:
+        if line == '\n':
+            passports.append(helper)
+            print('passport number',i+1,' is: ', passports[i])
+            if all(req in passports[i] for req in requirements):
+                valid+=1
+                validpassports.append(passports[i])
+                print('valid') 
+            i+=1
+            helper=''   
+        else:
+            helper+= line
+        #print(repr(line))
+    print('there are ',valid,' passports containing all required fields')
+
+    check=[]
+    i=-1
+    for passport in validpassports:
+        i+=1
+        byrCheck= False
+        iyrCheck= False
+        eyrCheck= False
+        hgtCheck= False
+        hclCheck= False
+        eclCheck= False
+        pidCheck= False
+        byrCheck= checker('byr',validpassports[i])
+        iyrCheck= checker('iyr',validpassports[i])
+        eyrCheck= checker('eyr',validpassports[i])
+        hgtCheck= checker('hgt',validpassports[i])
+        hclCheck= checker('hcl',validpassports[i])
+        eclCheck= checker('ecl',validpassports[i])
+        pidCheck= checker('pid',validpassports[i])
+        check.append([byrCheck,iyrCheck,eyrCheck,hgtCheck,hclCheck,eclCheck,pidCheck])
+        print(check[i])
+        if all(check[i]):
+            result+= 1
+    i+=1
+    print(i)
+    print(check[i-1],i)
+    print('the result is:',result)

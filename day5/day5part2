@@ -1,0 +1,29 @@
+with open('day5/input.txt', 'r') as file:
+    result=0
+    row=[]
+    collumn=[]
+    i=0
+    id=[]
+    help=[]
+    suspiciousrow=['0']*128
+    print(len(suspiciousrow))
+    for line in file:
+        row.append(int(line[0:7].replace('F', '0').replace('B', '1'), 2))
+        collumn.append(int(line[7:11].replace('R', '1').replace('L', '0'), 2))
+        print(row[i],collumn[i],i)
+        id.append(row[i]*8 +collumn[i])
+        j = int(row[i])
+        suspiciousrow[j]+='w'
+        i+=1
+    result=max(id)
+    print('the result is:',result)
+    for j in range(128):
+        if len(suspiciousrow[j])!= 9:
+            print(j,len(suspiciousrow[j]),' is suspicious')
+    i=0
+    for i in range(len(row)):
+        if int(row[i]) == 64:
+            print ('tickets in suspicious 64 row are ',collumn[i])
+        i+=1
+    result=64*8+5
+    print('the id of the seat is:',result,'because the seat is row 64 and collumn 5')

@@ -1,0 +1,44 @@
+import re
+with open("day7/output.txt", "w"):
+    pass
+
+with open('day7/input.txt', 'r') as file:
+    result=0
+    variable=''
+    i=0
+    goodbag=set()
+    test=set()
+    helperset=set()
+    for line in file:
+        if "contain no other bags" in line:
+            print(line,"is boring, skipping")
+            continue
+        if re.search(r"\d+"+" shiny gold bag",line):
+            print(line,"uuu, shiny gold bag")    
+            with open("day7/output.txt", "a", encoding="utf-8") as f:
+                f.write(str(line))
+            goodbag.add(line[0:line.index('s contain')])
+            print(goodbag)
+            print(line[0:line.index('s contain')])
+    while len(goodbag) != len(test) and i<=100000:
+        test=goodbag
+        with open('day7/input.txt', 'r') as file:
+            for aline in file:
+                #print("aline works", aline)
+                if "contain no other bags" in aline:
+                    print(aline,"is boring, skipping")
+                    continue
+                for bag in goodbag:
+                    if re.search(r"\d+ "+str(bag),aline):
+                        print(aline,"uuu,", bag)    
+                        helperset.add(aline[0:aline.index('s contain')])
+                        print("helperset is:",helperset)
+                        print(aline[0:aline.index('s contain')])
+                goodbag=goodbag.union(helperset)
+                helperset=set()
+                #print(goodbag,"added", helperset)
+            i+=1
+        
+    print(goodbag,"are good bags to take")
+    result=len(goodbag)
+print('the result is:',result)

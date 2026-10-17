@@ -1,0 +1,38 @@
+with open("day6/output.txt", "w"):
+    pass
+
+with open('day6/input.txt', 'r') as file:
+    result=0
+    groupanswer=[]
+    helper=''
+    i=0
+    alphabet=['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+    for line in file:
+        if line == '\n':
+            groupanswer.append(helper)
+            print('group answer',i+1,' is: ', groupanswer[i])
+            with open("day6/output.txt", "a", encoding="utf-8") as f:
+                f.write(str(groupanswer[i]))
+                f.write("\n")
+            i+=1
+            helper=''   
+        else:
+            helper+= line
+                #print(repr(line))
+temp={}
+checkifnewanswer=True
+with open('day6/output.txt', 'r') as file:
+    for line in file:
+        if line != '\n':
+            if checkifnewanswer:
+                temp= set(line)
+                checkifnewanswer=False
+            else:
+                temp= temp.intersection(set(line))
+        else:
+            temp.discard('\n')
+            result+=len(temp)
+            print(temp, " is all the group answers")
+            temp={}
+            checkifnewanswer=True
+print('the result is:',result)

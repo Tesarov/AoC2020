@@ -1,0 +1,14 @@
+with open('day5/input.txt', 'r') as file:
+    result=0
+    row=[]
+    collumn=[]
+    i=0
+    id=[]
+    for line in file:
+        row.append(int(line[0:7].replace('F', '0').replace('B', '1'), 2))
+        collumn.append(int(line[7:11].replace('R', '1').replace('L', '0'), 2))
+        print(row[i],collumn[i],i)
+        id.append(row[i]*8 +collumn[i])
+        i+=1
+    result=max(id)
+    print('the result is:',result)
