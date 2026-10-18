@@ -1,0 +1,37 @@
+import re
+with open("day8/logs.txt", "w"):
+    pass
+with open('day8/input.txt', 'r') as file:
+    acc=0
+    result=0
+    i=0
+    k=0
+    instructions=[]
+    numbersToInstruction=[]
+    path=[]
+    for line in file:
+        instructions.append(str(line[0:3]))
+        numbersToInstruction.append(int(line.split()[-1]))
+        i+=1
+    i=0
+    print("default",instructions,numbersToInstruction)
+    for k in range(len(instructions)):    
+        if (i in path):
+            break
+        else:
+            path.append(i)
+            with open("day8/logs.txt", "a") as f:
+                f.write(f"adding {i} to path\n")
+        if instructions[i]=="acc":
+            acc+=numbersToInstruction[i]
+            i+=1
+        elif instructions[i]=="jmp":
+            i+=numbersToInstruction[i]
+        elif instructions[i]=="nop":
+            i+=1
+        else:
+            with open("day8/logs.txt", "a") as f:
+                f.write(f"invalid instruction type {instructions[i]} \n")
+        
+    result=acc
+print('the result is:',result)

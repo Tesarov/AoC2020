@@ -1,0 +1,49 @@
+import re
+with open("day9/logs.txt", "w"):
+    pass
+def log(text):
+    with open("day9/logs.txt", "a") as f:
+        f.write(f"{text}\n")
+with open('day9/input.txt', 'r') as file:
+    result=0
+    i=0
+    j=0
+    preambulesize=25
+    preambule=[]
+    summable=0
+    for line in file:
+        log(f"starting to investigate {int(line)}")
+        i=0
+        j=0
+        summable=0
+        if len(preambule)>preambulesize:
+            preambule.pop(0)
+        if len(preambule)<preambulesize:
+            with open("day9/logs.txt", "a") as f:
+                f.write(f"logging hard, and preambule is still buffering because: {len(preambule)} is not yet {preambulesize} here is current preambule: {preambule}\n")             
+            preambule.append(line[:-1])
+            continue
+        for number in preambule:
+            i+=1
+            if len(preambule)==preambulesize:
+                log(f"this is a great log, we are not buffering the preambule because {len(preambule)} is {preambulesize}")
+                for j in range(i,len(preambule)):
+                    if int(number)+int(preambule[j])==int(line):
+                        summable=1
+                        log(f" {number} and {preambule[j]} is allegedly {int(line)}")
+            else:
+                continue
+        if int(summable==0):
+            with open("day9/logs.txt", "a") as f:
+                f.write(f"logging hard, and {line} is the first bad number \n")
+            break
+        elif int(summable==1):
+            with open("day9/logs.txt", "a") as f:
+                f.write(f"logging hard, and {line} passed the vibe check \n") 
+        else:
+            with open("day9/logs.txt", "a") as f:
+                f.write(f"logging hard, and {line} is neither summable nor not summable but summable is:{summable} \n")            
+        preambule.append(line)
+    result=line     
+print('the result is:',result)
+

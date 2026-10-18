@@ -1,0 +1,94 @@
+import re
+with open("day8/logs.txt", "w"):
+    pass
+with open('day8/input.txt', 'r') as file:
+    acc=0
+    result=0
+    i=0
+    j=0
+    k=0
+    instructions=[]
+    numbersToInstruction=[]
+    path=[]
+    changable=[]
+    isFinal=0
+    control=""
+    for line in file:
+        instructions.append(str(line[0:3]))
+        if line[0:3]=="jmp" or line[0:3]=="nop":
+            changable.append("1")
+        else:
+            changable.append("0")
+        
+        numbersToInstruction.append(int(line.split()[-1]))
+        i+=1
+    #todo figure out how to change exactly one instruction, how to make sure the program finished otherwise and how to change the first available instruction.
+    # watchout for b variable
+    control=instructions
+    print(changable)
+    for j in range(len(changable)):  
+        if (int (changable[j])==3):
+            break
+        acc=0
+        with open("day8/logs.txt", "a") as f:
+            f.write(f" trying:{instructions[j]},{changable[j]},{j}, {numbersToInstruction[j]}\n")
+        if int(changable[j])==1:
+            control[j]=instructions[j]
+            if  instructions[j]=="jmp":
+                 instructions[j]="nop"
+                 with open("day8/logs.txt", "a") as f:
+                    f.write(f"{instructions[j]},jedeeeme  \n")
+            elif instructions[j]=="nop":
+                 instructions[j]="jmp"
+                 with open("day8/logs.txt", "a") as f:
+                    f.write(f"{instructions[j]},jedeeeme  \n")
+            else: 
+                with open("day8/logs.txt", "a") as f:
+                    f.write(f"something went wrong for {j}th instruction, with {changable[j]}, expected acc or nop, but got {instructions[j]}, cannot change it accordingly  \n")
+            with open("day8/logs.txt", "a") as f:
+                f.write(f"{j}th instruction, with {changable[j]}, {instructions[j]},{control[j]}  \n")
+        
+        control[j]=instructions[j]
+        
+        i=0
+        path=[]
+        with open("day8/logs.txt", "a") as f:
+                    f.write(f"after potential changage:{instructions[j]},{changable[j]}  \n")
+        for k in range(len(instructions)):    
+            if (i in path):
+                with open("day8/logs.txt", "a") as f:
+                    f.write(f" there is loopage:  {instructions[j]}, {path}  \n")
+                changable[j] =2
+                if  instructions[j]=="jmp":
+                 instructions[j]="nop"
+                elif  instructions[j]=="nop":
+                 instructions[j]="jmp"
+                else: 
+                    with open("day8/logs.txt", "a") as f:
+                        f.write(f"something went wrong for {j}th instruction, with {changable[j]}, expected acc or nop, but got {instructions[j]}, cannot revert the instruction back, because it's not the right one, want it back to {control}  \n")
+                with open("day8/logs.txt", "a") as f:
+                    f.write(f"the program is looping changing {j}th {instructions[j]}, but the problem is in step {i}  \n")
+                break
+            else:
+                path.append(i)
+            try:
+                if instructions[i]=="acc":
+                    acc+=numbersToInstruction[i]
+                    i+=1
+                elif instructions[i]=="jmp":
+                    i+=numbersToInstruction[i]
+                elif instructions[i]=="nop":
+                    i+=1
+                else:
+                    with open("day8/logs.txt", "a") as f:
+                            f.write(f"invalid instruction type {instructions[i]} \n")
+            except:
+                break
+        if int(changable[j]) ==1:
+            changable[j]=3
+            print("got it")
+            with open("day8/logs.txt", "a") as f:
+                f.write(f" finally, no loopage:  {instructions[j]}, {path}, {acc},{j}  \n") 
+            break        
+    result=acc  
+print('the result is:',result,'by changing instruction on line', j+1)

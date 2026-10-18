@@ -1,0 +1,29 @@
+import re
+with open("day9/logs.txt", "w"):
+    pass
+def log(text):
+    with open("day9/logs.txt", "a") as f:
+        f.write(f"{text}\n")
+with open('day9/input.txt', 'r') as file:
+    lines = list(map(int, file.readlines()))
+    result=0
+    i=0
+    j=0
+    finalnumber=393911906
+    for k in range(0,len(lines)):
+        log(f"starting to investigate {int(lines[k])}")
+        for j in range(k,len(lines)):
+            log(f"{sum(lines[k:j])}")
+            if (sum(lines[k:j])==int(finalnumber)):
+                result=min(lines[k:j])+max(lines[k:j])
+                log(f"the number is {min(lines[k:j])} +{max(lines[k:j])}= {min(lines[k:j])+max(lines[k:j])} = {finalnumber} and total {(lines[k:j])}")
+                break
+            elif(sum(lines[k:j])>int(finalnumber)):
+                log(f"the number is {min(lines[k:j])} +{max(lines[k:j])}={min(lines[k:j])+max(lines[k:j])}  > {finalnumber} and total {(lines[k:j])}")
+                break
+        if (sum(lines[k:j])==int(finalnumber)):
+            result=min(lines[k:j])+max(lines[k:j])
+            log(f"the number is {min(lines[k:j])} +{max(lines[k:j])}= {min(lines[k:j])+max(lines[k:j])} = {finalnumber} and total {(lines[k:j])}")
+            break
+print('the result is:',result)
+
